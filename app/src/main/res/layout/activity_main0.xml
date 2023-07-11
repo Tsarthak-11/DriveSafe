@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#223345"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/amazonName"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="ADMIN"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/amazonImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/amazonDesc"
+        android:text="Emergency Services"
+        android:paddingLeft="4dp"
+        android:textSize="14sp"
+        android:layout_marginStart="18dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amazonName"
+        app:layout_constraintEnd_toStartOf="@+id/amazonImage"/>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:id="@+id/amazonImage"
+        android:src="@drawable/siren1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toEndOf="@id/amazonName"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:id="@+id/row1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amazonImage">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/clothingCard"
+            android:layout_margin="10dp"
+
+            android:layout_weight="1"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:id="@+id/POlICE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3DAE1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/clothingName"
+                    android:text="Police"
+                    android:textSize="20sp"
+                    android:textColor="#02041b"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/clothingImage"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/clothingImage"
+                    android:src="@drawable/police"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:id="@+id/HOSPITAL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3DAE1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/elecName"
+                    android:text="Hospital"
+                    android:textSize="20sp"
+                    android:textColor="#02041b"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/elecImage"/>
+
+                <ImageView
+                    android:id="@+id/elecImage"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/hospitall" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:id="@+id/row2"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/row1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:id="@+id/AMBULANCE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3DAE1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/homeName"
+                    android:text="Ambulance"
+                    android:textSize="20sp"
+                    android:textColor="#02041b"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/homeImage"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/homeImage"
+                    android:src="@drawable/ambulance"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

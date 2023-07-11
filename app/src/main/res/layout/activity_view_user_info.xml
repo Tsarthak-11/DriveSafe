@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewUserInfoActivity"
+    android:background="@color/darkblue">
+
+    <TextView
+        android:id="@+id/driversinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text="User Information "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/caladea_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/driversname"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:padding="2dp"
+        android:text="User Name :- "
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/driversinfo" />
+
+    <TextView
+        android:id="@+id/vehicleno"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Vehicle No :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/driversname" />
+
+    <TextView
+        android:id="@+id/travellingfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Travelling From :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vehicleno" />
+
+    <TextView
+        android:id="@+id/travellingto"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Travelling To :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/travellingfrom" />
+
+    <TextView
+        android:id="@+id/emergency_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Emergency Contact :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/travellingto" />
+
+    <TextView
+        android:id="@+id/ambulanceinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:text="Ambulance Information  "
+        app:fontFamily="@font/caladea_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emergency_contact" />
+
+    <TextView
+        android:id="@+id/ambulancedriversname"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Ambulance Driver Name :- "
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ambulancenumber"
+        app:layout_constraintTop_toBottomOf="@+id/ambulanceinfo" />
+
+    <TextView
+        android:id="@+id/ambulancenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Ambulance Vehicle No :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ambulancedriversname" />
+
+    <TextView
+        android:id="@+id/ambulancecontactno"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Ambulance Contact No :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ambulancenumber" />
+
+
+    <TextView
+        android:id="@+id/hospitalinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="10dp"
+        android:text="Hospital Information  "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/caladea_bold"
+        app:layout_constraintEnd_toEndOf="@+id/ambulanceinfo"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="@+id/ambulanceinfo"
+        app:layout_constraintTop_toBottomOf="@+id/ambulancecontactno" />
+
+    <TextView
+        android:id="@+id/hospitalname"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:padding="2dp"
+        android:text="Hospital Name :- "
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/patientregdate"
+        app:layout_constraintTop_toBottomOf="@+id/hospitalinfo" />
+
+    <TextView
+        android:id="@+id/patientregdate"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Register Date :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hospitalname" />
+
+    <TextView
+        android:id="@+id/patientregtime"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Time :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@id/patientregdate"
+        app:layout_constraintTop_toBottomOf="@+id/hospitalname" />
+
+    <TextView
+        android:id="@+id/patienthealthstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:padding="2dp"
+        android:text="Health Status :- "
+        android:textAlignment="viewStart"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patientregdate" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
