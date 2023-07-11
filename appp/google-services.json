@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "194852870355",
+    "firebase_url": "https://accident-emergency-app-2c177-default-rtdb.firebaseio.com",
+    "project_id": "accident-emergency-app-2c177",
+    "storage_bucket": "accident-emergency-app-2c177.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194852870355:android:f0e0812c2a2d2ec195dc26",
+        "android_client_info": {
+          "package_name": "com.example.driverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194852870355-s8ngna1qbea1k2f3h82f65tht9ihl0h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.driverapp",
+            "certificate_hash": "a0849fff5c6c33b0a809127f3d43b143e9ac841b"
+          }
+        },
+        {
+          "client_id": "194852870355-k746qh6kefe01tu39mvgjo57pdjff1i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVv0qVd3YtwIinKR7ap0ZCtsb5xPh-6Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194852870355-k746qh6kefe01tu39mvgjo57pdjff1i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194852870355:android:39dfc677450a59f395dc26",
+        "android_client_info": {
+          "package_name": "com.example.emergencyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194852870355-k746qh6kefe01tu39mvgjo57pdjff1i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVv0qVd3YtwIinKR7ap0ZCtsb5xPh-6Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194852870355-k746qh6kefe01tu39mvgjo57pdjff1i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194852870355:android:2d3c4b829027474295dc26",
+        "android_client_info": {
+          "package_name": "com.example.emergencyapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194852870355-hkiconotd80jq5ijc0kadsv0jv3restb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emergencyapp1",
+            "certificate_hash": "a0849fff5c6c33b0a809127f3d43b143e9ac841b"
+          }
+        },
+        {
+          "client_id": "194852870355-k746qh6kefe01tu39mvgjo57pdjff1i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVv0qVd3YtwIinKR7ap0ZCtsb5xPh-6Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194852870355-k746qh6kefe01tu39mvgjo57pdjff1i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
